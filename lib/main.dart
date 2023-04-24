@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'config/themes/app_theme.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -9,9 +11,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(),
+      theme: getApplicationTheme(),
+      home: const Scaffold(),
     );
   }
 }
