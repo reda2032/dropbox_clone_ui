@@ -9,7 +9,7 @@ import '../../features/side_menu/side_menu_screen.dart';
 import '../../features/storage_details/storage_details_screen.dart';
 
 class Routes {
-  static const String loginRoute = "/login";
+  static const String loginRoute = "/";
   static const String homeRoute = "/home";
   static const String profileRoute = "/profile";
   static const String settingRoute = "/setting";

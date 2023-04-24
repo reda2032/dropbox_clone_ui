@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'config/routes/app_routes.dart';
 import 'config/themes/app_theme.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: getApplicationTheme(),
-      home: const Scaffold(),
+      onGenerateRoute: RouteGenerator.getRoute,
     );
   }
 }
