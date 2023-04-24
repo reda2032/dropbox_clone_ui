@@ -6,7 +6,7 @@ import '../../core/utils/app_values.dart';
 ThemeData getApplicationTheme() {
   return ThemeData(
       // main colors
-
+      scaffoldBackgroundColor: AppColor.whiteColor,
       primaryColor: AppColor.whiteColor,
       appBarTheme: const AppBarTheme(
         centerTitle: true,

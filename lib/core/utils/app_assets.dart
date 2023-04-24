@@ -2,6 +2,7 @@ const String imagePath = "assets/images";
 
 class AppImage {
   static const String proLabel = "$imagePath/pro_label.svg";
+  static const String dropboxLogo = "$imagePath/dropbox_logo.png";
 }
 
 class AppIcons {
@@ -30,4 +31,10 @@ class AppIcons {
   static const String settingIcon = "$imagePath/setting_icon.svg";
   static const String sortIcon = "$imagePath/sort_icon.svg";
   static const String wordIcon = "$imagePath/word_icon.svg";
+  static const String facebookIcon = "$imagePath/facebookIcon.svg";
+  static const String instagramIcon = "$imagePath/instagramIcon.svg";
+  static const String arrowRightSignIn = "$imagePath/arrow_right_sign_in.svg";
+  static const String smartId = "$imagePath/smartId.svg";
 }
+
+//'assets/images/arrow_right_sign_in.svg'
